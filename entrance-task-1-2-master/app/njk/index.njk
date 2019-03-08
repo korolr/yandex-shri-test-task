@@ -1,0 +1,329 @@
+{% extends "./parts/_base.njk" %}
+
+{% block content %}
+
+<div class="main-block">
+
+    <div class="row start-lg container-fluid">
+        <div class="col-lg-6">
+            <div class="info">
+                <p class="heading">Главное</p>
+            </div>
+            <div class="info__hello">
+
+                <div class="row card-hello_wrap">
+                    <div class="col-lg-7">
+                        <h1 class="info__hello-h1">Привет, Геннадий!</h1>
+                        <p class="info__hello-text">Двери и окна закрыты, сигнализация включена.</p>
+                        <p class="info__hello-text-home">Дома</p>
+                        <p class="info__hello-text-window">За окном</p>
+                        <br>
+                        <p class="info__hello-temp-home">+23</p>
+                        <p class="info__hello-temp-window">+19</p>
+                    </div>
+                    <div class="col-lg-5">
+
+                        <div class="card-hello_gallery" id="card-hello_gallery">
+                            <div class="card-hello_gallery-big">
+                                <div class="card-hello_gallery__elem temp">
+                                    <div class="card-hello info__hello-one-card">
+                                        <img class="card-hello__img" src="img/icon_temperature@1x.png" alt="">
+                                        <p class="card-hello__h1">Philips Cooler</p>
+                                        <p class="card-hello__text">Начнет охлаждать в 16:30</p>
+                                    </div>
+                                </div>
+                                <div class="card-hello_gallery__elem weather">
+                                    <div class="card-hello">
+                                        <img class="card-hello__img" src="img/icon_sun@1x.png" alt="">
+                                        <p class="card-hello__h1">Xiaomi Yeelightsuper LED Smart Bulb</p>
+                                        <p class="card-hello__text">Включится в 17:00</p>
+                                    </div>
+                                </div>
+
+                                <div class="card-hello__chunk" id="card-hello__chunk" style="display: block;">
+                                    <img src="img/_M.png" class="card-hello__chunk-img" alt="">
+                                </div>
+
+                                <div class="card-hello_gallery__elem temp">
+                                    <div class="card-hello info__hello-one-card">
+                                        <img class="card-hello__img" src="img/icon_temperature@1x.png" alt="">
+                                        <p class="card-hello__h1">Philips Cooler</p>
+                                        <p class="card-hello__text">Начнет охлаждать в 16:30</p>
+                                    </div>
+                                </div>
+                                <div class="card-hello_gallery__elem weather">
+                                    <div class="card-hello">
+                                        <img class="card-hello__img" src="img/icon_sun@1x.png" alt="">
+                                        <p class="card-hello__h1">Xiaomi Yeelightsuper LED Smart Bulb</p>
+                                        <p class="card-hello__text">Включится в 17:00</p>
+                                    </div>
+                                </div>
+                                <div class="card-hello_gallery__elem temp">
+                                    <div class="card-hello info__hello-one-card">
+                                        <img class="card-hello__img" src="img/icon_temperature@1x.png" alt="">
+                                        <p class="card-hello__h1">Philips Cooler</p>
+                                        <p class="card-hello__text">Начнет охлаждать в 16:30</p>
+                                    </div>
+                                </div>
+                                <div class="card-hello_gallery__elem weather">
+                                    <div class="card-hello">
+                                        <img class="card-hello__img" src="img/icon_sun@1x.png" alt="">
+                                        <p class="card-hello__h1">Xiaomi Yeelightsuper LED Smart Bulb</p>
+                                        <p class="card-hello__text">Включится в 17:00</p>
+                                    </div>
+                                </div>
+                                <div class="card-hello_gallery__elem temp">
+                                    <div class="card-hello info__hello-one-card">
+                                        <img class="card-hello__img" src="img/icon_temperature@1x.png" alt="">
+                                        <p class="card-hello__h1">Philips Cooler</p>
+                                        <p class="card-hello__text">Начнет охлаждать в 16:30</p>
+                                    </div>
+                                </div>
+                                <div class="card-hello_gallery__elem weather">
+                                    <div class="card-hello">
+                                        <img class="card-hello__img" src="img/icon_sun@1x.png" alt="">
+                                        <p class="card-hello__h1">Xiaomi Yeelightsuper LED Smart Bulb</p>
+                                        <p class="card-hello__text">Включится в 17:00</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6" id="two-favorite">
+            <div class="favorite">
+                <div class="favorite__row">
+                    <p class="heading">Избранные сценарии</p>
+                    <div class="favorite_click">
+                        <div class="heading__prev"></div>
+                        <div class="heading__next"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <div class="favorite-container">
+                    <div class="card weather">
+                        <img class="card__img" src="img/icon_sun_2@1x.png" alt="">
+                        <p class="card__h1">Выключить весь свет в коридоре</p>
+                    </div>
+                    <div class="card wait">
+                        <img class="card__img" src="img/icon_scheduled@1x.png" alt="">
+                        <p class="card__h1">Я ухожу</p>
+                    </div>
+                    <div class="card weather">
+                        <img class="card__img" src="img/icon_sun_2@1x.png" alt="">
+                        <p class="card__h1">Включить весь свет в коридоре</p>
+                    </div>
+                    <div class="card temp">
+                        <img class="card__img" src="img/icon_temperature_2@1x.png" alt="">
+                        <p class="card__h1">Набрать горячую ванну</p>
+                        <p class="card__text">Начнет охлаждать в 18:00</p>
+                    </div>
+                    <div class="card temp">
+                        <img class="card__img" src="img/icon_temperature_2@1x.png" alt="">
+                        <p class="card__h1">Сделать пол теплым во всей квартире</p>
+                    </div>
+                    <div class="card weather">
+                        <img class="card__img" src="img/icon_sun_2@1x.png" alt="">
+                        <p class="card__h1">Выключить весь свет в коридоре</p>
+                    </div>
+                    <div class="card wait">
+                        <img class="card__img" src="img/icon_scheduled@1x.png" alt="">
+                        <p class="card__h1">Я ухожу</p>
+                    </div>
+                    <div class="card weather">
+                        <img class="card__img" src="img/icon_sun_2@1x.png" alt="">
+                        <p class="card__h1">Включить весь свет в коридоре</p>
+                    </div>
+                    <div class="card temp">
+                        <img class="card__img" src="img/icon_temperature_2@1x.png" alt="">
+                        <p class="card__h1">Набрать горячую ванну</p>
+                        <p class="card__text">Начнет охлаждать в 18:00</p>
+                    </div>
+                    <div class="card temp">
+                        <img class="card__img" src="img/icon_temperature_2@1x.png" alt="">
+                        <p class="card__h1">Сделать пол теплым во всей квартире</p>
+                    </div>
+                    <div class="card weather">
+                        <img class="card__img" src="img/icon_sun_2@1x.png" alt="">
+                        <p class="card__h1">Выключить весь свет в коридоре</p>
+                    </div>
+                    <div class="card wait">
+                        <img class="card__img" src="img/icon_scheduled@1x.png" alt="">
+                        <p class="card__h1">Я ухожу</p>
+                    </div>
+                    <div class="card weather">
+                        <img class="card__img" src="img/icon_sun_2@1x.png" alt="">
+                        <p class="card__h1">Включить весь свет в коридоре</p>
+                    </div>
+                    <div class="card temp">
+                        <img class="card__img" src="img/icon_temperature_2@1x.png" alt="">
+                        <p class="card__h1">Набрать горячую ванну</p>
+                        <p class="card__text">Начнет охлаждать в 18:00</p>
+                    </div>
+                    <div class="card temp">
+                        <img class="card__img" src="img/icon_temperature_2@1x.png" alt="">
+                        <p class="card__h1">Сделать пол теплым во всей квартире</p>
+                    </div>
+                    <div class="card weather">
+                        <img class="card__img" src="img/icon_sun_2@1x.png" alt="">
+                        <p class="card__h1">Выключить весь свет в коридоре</p>
+                    </div>
+                    <div class="card wait">
+                        <img class="card__img" src="img/icon_scheduled@1x.png" alt="">
+                        <p class="card__h1">Я ухожу</p>
+                    </div>
+                    <div class="card weather">
+                        <img class="card__img" src="img/icon_sun_2@1x.png" alt="">
+                        <p class="card__h1">Включить весь свет в коридоре</p>
+                    </div>
+                    <div class="card temp">
+                        <img class="card__img" src="img/icon_temperature_2@1x.png" alt="">
+                        <p class="card__h1">Набрать горячую ванну</p>
+                        <p class="card__text">Начнет охлаждать в 18:00</p>
+                    </div>
+                    <div class="card temp">
+                        <img class="card__img" src="img/icon_temperature_2@1x.png" alt="">
+                        <p class="card__h1">Сделать пол теплым во всей квартире</p>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <div class="row start-lg container-fluid">
+
+        <div class="col-lg-12" id="device__category">
+            <div class="device">
+                <div class="device__category">
+                    <p class="heading">Избранные устройства</p>
+                    <button class="device__category-button device__category-button_active">&ensp; Все &ensp; </button>
+                    <button class="device__category-button">&ensp; Кухня &ensp; </button>
+                    <button class="device__category-button"> &ensp; Зал &ensp; </button>
+                    <button class="device__category-button"> &ensp; Лампочки &ensp; </button>
+                    <button class="device__category-button"> &ensp; Камеры &ensp; </button>
+
+                    <div class="device_click">
+                        <div class="device__prev"></div>
+                        <div class="device__next"></div>
+                    </div>
+                </div>
+
+                <div class="device_gallery">
+                    <div class="device_gallery-big">
+                        <div class="device_gallery__elem weather">
+                            <div class="device_card">
+                                <img class="device_card__img" src="img/icon_sun_2@1x.png" alt="">
+                                <p class="device_card__h1">Xiaomi smart hub</p>
+                                <p class="device_card__text">Включено</p>
+                            </div>
+                        </div>
+
+                        <div class="device_gallery__elem weather">
+                            <div class="device_card">
+                                <img class="device_card__img" src="img/icon_sun@1x.png" alt="">
+                                <p class="device_card__h1">D-Link Omna </p>
+                                <p class="device_card__text">Начнет охлаждать в 17:00</p>
+                            </div>
+                        </div>
+                        <div class="device_gallery__elem temp">
+                            <div class="device_card">
+                                <img class="device_card__img" src="img/icon_temperature@1x.png" alt="">
+                                <p class="device_card__h1">Elgato Eve Degree </p>
+                                <p class="device_card__text">Начнет охлаждать в 17:00</p>
+                            </div>
+                        </div>
+                        <div class="device_gallery__elem weather">
+                            <div class="device_card">
+                                <img class="device_card__img" src="img/icon_sun@1x.png" alt="">
+                                <p class="device_card__h1">LIFX Mini Day</p>
+                                <p class="device_card__text">Начнет охлаждать в 17:00</p>
+                            </div>
+                        </div>
+                        <div class="device_gallery__elem weather">
+                            <div class="device_card">
+                                <img class="device_card__img" src="img/icon_sun_2@1x.png" alt="">
+                                <p class="device_card__h1">Xiaomi Mi Air</p>
+                                <p class="device_card__text">Включено</p>
+                            </div>
+                        </div>
+                        <div class="device_gallery__elem weather">
+                            <div class="device_card">
+                                <img class="device_card__img" src="img/icon_sun@1x.png" alt="">
+                                <p class="device_card__h1">Philips Zhirui</p>
+                                <p class="device_card__text">Включено</p>
+                            </div>
+                        </div>
+                        <div class="device_gallery__elem weather">
+                            <div class="device_card">
+                                <img class="device_card__img" src="img/icon_sun_2@1x.png" alt="">
+                                <p class="device_card__h1">Xiaomi smart hub</p>
+                                <p class="device_card__text">Включено</p>
+                            </div>
+                        </div>
+
+                        <div class="device_gallery__elem weather">
+                            <div class="device_card">
+                                <img class="device_card__img" src="img/icon_sun@1x.png" alt="">
+                                <p class="device_card__h1">D-Link Omna </p>
+                                <p class="device_card__text">Начнет охлаждать в 17:00</p>
+                            </div>
+                        </div>
+                        <div class="device_gallery__elem temp">
+                            <div class="device_card">
+                                <img class="device_card__img" src="img/icon_temperature@1x.png" alt="">
+                                <p class="device_card__h1">Elgato Eve Degree </p>
+                                <p class="device_card__text">Начнет охлаждать в 17:00</p>
+                            </div>
+                        </div>
+                        <div class="device_gallery__elem weather">
+                            <div class="device_card">
+                                <img class="device_card__img" src="img/icon_sun@1x.png" alt="">
+                                <p class="device_card__h1">LIFX Mini Day</p>
+                                <p class="device_card__text">Начнет охлаждать в 17:00</p>
+                            </div>
+                        </div>
+                        <div class="device_gallery__elem weather">
+                            <div class="device_card">
+                                <img class="device_card__img" src="img/icon_sun_2@1x.png" alt="">
+                                <p class="device_card__h1">Xiaomi Mi Air</p>
+                                <p class="device_card__text">Включено</p>
+                            </div>
+                        </div>
+                        <div class="device_gallery__elem weather">
+                            <div class="device_card">
+                                <img class="device_card__img" src="img/icon_sun@1x.png" alt="">
+                                <p class="device_card__h1">Philips Zhirui</p>
+                                <p class="device_card__text">Включено</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+{% endblock %}
