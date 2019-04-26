@@ -4,4 +4,4 @@
 
 - [1 Задание](https://github.com/korolr/yandex-shri-test-task/tree/master/entrance-task-1-1-master) - Где нужно было разобраться в чужом коде и исправить ошибки, в частности в работе с библиотекой яндекс карт.
 - [2 Задание](https://github.com/korolr/yandex-shri-test-task/tree/master/entrance-task-1-2-master) - Необходимо было сверстать адаптивный сайт с анимациями для умного дома.
-- [3 Задание](https://github.com/korolr/yandex-shri-test-task/tree/master/entrance-task-1-3-master) - Разработка алгоритма для нахождения оптимальных трат электроинергии умного дома.
+- [3 Задание](https://github.com/korolr/yandex-shri-test-task/tree/master/entrance-task-1-3-master) - Разработка алгоритма для нахождения оптимальных трат электроэнергии умного дома.
